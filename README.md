@@ -16,7 +16,7 @@
 | session_name | название сессии |
 | bot_token | токен бота для отправки уведомлений, не обязательно |
 | admin_user_id | user_id пользователя которому отправлять уведомления, получить можно [тут](https://t.me/username_to_id_bot), если указан bot_token |
-| channel_msg_delay | кд на посты в секундах, если стоит 120 то бот сможет ответить только на 1 пост в 2 минуты  |
+| channel_msg_delay | (сек) кд на комменты в каналах, если стоит 120 то бот сможет ответить только раз в 2 минуты в каждом канале |
 | text_file | название файла с фразами |
 | channels_file | название файла с каналами |
 
@@ -46,7 +46,7 @@
 | session_name | session name |
 | bot_token | bot token to send notifications, not required |
 | admin_user_id | user_id of the user to whom to send notifications can be obtained [here](https://t.me/username_to_id_bot)|
-| channel_msg_delay | comment idle time in seconds, if you set it to 120, the bot will only be able to respond to 1 post per 2 minutes |
+| channel_msg_delay | (sec) comment idle time, if it is 120, the bot will be able to reply only once every 2 minutes in each channel |
 | text_file | phrases file name |
 | channels_file | channels file name |
 
